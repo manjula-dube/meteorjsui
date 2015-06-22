@@ -1,0 +1,23 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+}
+.nav-title {
+  font-size: 2.1em;
+  font-weight: 700;
+  padding-top: 25px;
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.signIn {
+  color: rgba(52, 73, 94, 0.3);
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+}
