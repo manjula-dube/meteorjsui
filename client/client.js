@@ -1,11 +1,15 @@
 if (Meteor.isClient) {
   Template.body.helpers({
     tasks: [
-      { text: "This is task 1" },
-      { text: "This is task 2" },
-      { text: "This is task 3" }
-
-      
+      { text: "untagged" },
+      { text: "lipsum" },
+      { text: "yahoo" },
+      { text: "client" },
+      { text: "demand" },
+      { text: "first" },
+      { text: "second" },
+      { text: "third" },
+      { text: "fourth" }
     ]
   });
 }
