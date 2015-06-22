@@ -3,6 +3,9 @@
   margin: 0 auto;
   background: white;
 }
+.navbar-default .navbar-brand {
+  color: #777;
+}
 .nav-title {
   font-size: 2.1em;
   font-weight: 700;
@@ -15,9 +18,60 @@
   font-size: 18px;
   line-height: 20px;
 }
+.header-navbar {
+  height: 70px;
+}
+.btn{
+    background-image: none;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-xs, .btn-group-xs>.btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
 .signIn {
   color: rgba(52, 73, 94, 0.3);
   display: block;
   font-size: 22px;
   font-weight: 700;
+}
+.note-date {
+  color: #333333;
+  border-color: rgba(52, 73, 94, 0.3);
+  font-weight: 700;
+  font-size: 11px;
+  height: 10px;
+}
+.txt {
+  padding: 5px;
+  padding-top: 0px;
+}
+.note-text {
+  color: #333333;
+  display: block;
+}
+.thumbs {
+  display: block;
+  margin-top: 16px;
+  margin-right: 16px;
+  height: 247px;
+  overflow: hidden;
+}
+.note-bg {
+  background-color: #F8F8F8;
+  border-color: #ddd;
+}
+.shadow {
+  -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.4), inset 0 0 3px rgba(230,230,230,0.2);
+  -moz-box-shadow: 0 2px 8px rgba(0,0,0,0.4), inset 0 0 3px rgba(230,230,230,0.2);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4), inset 0 0 3px rgba(230,230,230,0.2);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
